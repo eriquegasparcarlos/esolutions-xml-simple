@@ -1,0 +1,40 @@
+{
+    "type": "RC",
+    "description": "Resumen diario emitido >= 2026-08-01 con adquirente (#29) y tasa IGV (#27)",
+    "expect": "ok",
+    "payload": {
+        "document": {
+            "identifier": "RC-20260801-1",
+            "date_of_reference": "2026-07-31",
+            "date_of_issue": "2026-08-01",
+            "signature_uri": "signatureSUNAT",
+            "signature_note": "QuiroSys",
+            "company_number": "10417844398",
+            "company_name": "CLINICA QUIROSYS SAC",
+            "documents": [
+                {
+                    "document_type_id": "03",
+                    "id": "B001-50",
+                    "customer_number": "12345678",
+                    "customer_identity_document_type_id": "1",
+                    "status_id": "1",
+                    "currency_type_id": "PEN",
+                    "total": 118,
+                    "total_taxed": 100,
+                    "total_exonerated": 0,
+                    "total_unaffected": 0,
+                    "total_exportation": 0,
+                    "total_free": 0,
+                    "total_charge": 0,
+                    "total_igv": 18,
+                    "total_isc": 0,
+                    "total_other_taxes": 0,
+                    "total_plastic_bag_taxes": 0,
+                    "affected_document": null,
+                    "customer_name": "JUAN PEREZ LOPEZ",
+                    "igv_percent": 18
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,57 @@
+{
+    "type": "09",
+    "description": "Guía remitente motivo 18 (emisor itinerante)",
+    "expect": "ok",
+    "payload": {
+        "document": {
+            "id": "T001-13",
+            "date_of_issue": "2026-07-15",
+            "time_of_issue": "10:30:00",
+            "document_type_id": "09",
+            "signature_uri": "signatureSUNAT",
+            "signature_note": "QuiroSys",
+            "company_number": "10417844398",
+            "company_name": "CLINICA QUIROSYS SAC",
+            "customer_identity_document_type_id": "6",
+            "customer_number": "20601234567",
+            "customer_name": "CLIENTE DESTINO SAC",
+            "transfer_reason_type_id": "18",
+            "transfer_reason_description": "VENTA ITINERANTE",
+            "weight_unit_type_id": "KGM",
+            "total_weight": 15.5,
+            "transport_mode_type_id": "02",
+            "date_of_shipping": "2026-07-16",
+            "origin_location_id": "150101",
+            "origin_address": "AV. ORIGEN 123, LIMA",
+            "delivery_location_id": "150140",
+            "delivery_address": "JR. DESTINO 456, LIMA",
+            "plate_number": "ABC123",
+            "driver_identity_document_type_id": "1",
+            "driver_number": "44556677",
+            "driver_first_name": "JUAN",
+            "driver_family_name": "PEREZ",
+            "driver_license_number": "Q44556677",
+            "carrier_identity_document_type_id": null,
+            "carrier_number": null,
+            "carrier_name": null,
+            "carrier_mtc_number": null,
+            "origin_establishment_code": null,
+            "origin_establishment_ruc": null,
+            "delivery_establishment_code": null,
+            "delivery_establishment_ruc": null,
+            "observations": null,
+            "is_transport_category_m1l": false,
+            "items": [
+                {
+                    "quantity": 3,
+                    "unit_type_id": "NIU",
+                    "name_parts": [
+                        "Producto de prueba"
+                    ],
+                    "internal_id": "P001",
+                    "item_code": null
+                }
+            ]
+        }
+    }
+}

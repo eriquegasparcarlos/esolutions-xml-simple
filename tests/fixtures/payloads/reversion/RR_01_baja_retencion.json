@@ -1,0 +1,24 @@
+{
+    "type": "RR",
+    "description": "Reversión: baja de un comprobante de retención",
+    "expect": "ok",
+    "payload": {
+        "document": {
+            "identifier": "RR-20260722-1",
+            "date_of_reference": "2026-07-21",
+            "date_of_issue": "2026-07-22",
+            "signature_uri": "signatureSUNAT",
+            "signature_note": "QuiroSys",
+            "company_number": "10417844398",
+            "company_name": "CLINICA QUIROSYS SAC",
+            "documents": [
+                {
+                    "document_type_id": "20",
+                    "series": "R001",
+                    "number": "5",
+                    "description": "Error en los datos de la retención"
+                }
+            ]
+        }
+    }
+}

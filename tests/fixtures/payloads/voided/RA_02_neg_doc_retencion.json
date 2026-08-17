@@ -1,0 +1,25 @@
+{
+    "type": "RA",
+    "description": "NEGATIVO: un RA no admite comprobantes de retención (20) — van por reversión RR (2308)",
+    "expect": "rules_error",
+    "expect_codes": ["2308"],
+    "payload": {
+        "document": {
+            "identifier": "RA-20260722-4",
+            "date_of_reference": "2026-07-21",
+            "date_of_issue": "2026-07-22",
+            "signature_uri": "signatureSUNAT",
+            "signature_note": "QuiroSys",
+            "company_number": "10417844398",
+            "company_name": "CLINICA QUIROSYS SAC",
+            "documents": [
+                {
+                    "document_type_id": "20",
+                    "series": "R001",
+                    "number": "5",
+                    "description": "Retención no va por RA"
+                }
+            ]
+        }
+    }
+}

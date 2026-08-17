@@ -1,0 +1,88 @@
+{
+    "type": "04",
+    "description": "Liquidacion de compra 04 gravada (SelfBilledInvoice), proveedor con DNI",
+    "expect": "ok",
+    "payload": {
+        "document": {
+            "id": "L001-3",
+            "date_of_issue": "2026-07-22",
+            "time_of_issue": "10:15:00",
+            "operation_type_id": "0501",
+            "document_type_id": "04",
+            "currency_type_id": "PEN",
+            "signature_uri": "SIGN",
+            "signature_note": "SIGN",
+
+            "company_identity_document_type_id": "6",
+            "company_number": "10417844398",
+            "company_name": "ERIQUE GASPAR CARLOS ALFREDO",
+            "company_trade_name": "ACOPIO ANDINO",
+            "establishment": {
+                "location_id": "150101",
+                "code": "0000",
+                "urbanization": null,
+                "province": "LIMA",
+                "department": "LIMA",
+                "district": "LIMA",
+                "address": "AV. PRINCIPAL NRO. 123",
+                "country_id": "PE"
+            },
+
+            "supplier_identity_document_type_id": "1",
+            "supplier_number": "41784439",
+            "supplier_name": "JUAN PEREZ AGRICULTOR",
+            "supplier_address": {
+                "location_id": "150101",
+                "address_type_code": "01",
+                "province": "LIMA",
+                "department": "LIMA",
+                "district": "LIMA",
+                "address": "CASERIO LOS OLIVOS S/N",
+                "country_id": "PE"
+            },
+
+            "operation": {
+                "location_type_code": "01",
+                "location_id": "150101",
+                "province": "LIMA",
+                "department": "LIMA",
+                "district": "LIMA",
+                "address": "FUNDO SANTA ROSA",
+                "country_id": "PE"
+            },
+
+            "payment_condition_id": "01",
+
+            "legends": [
+                { "code": "1000", "value": "DOSCIENTOS TREINTA Y SEIS CON 00/100 SOLES" }
+            ],
+
+            "total_taxes": 36.00,
+            "total_taxed": 200.00,
+            "total_igv": 36.00,
+            "total_exonerated": 0,
+            "total_unaffected": 0,
+            "total_value": 200.00,
+            "total_payable": 236.00,
+
+            "items": [
+                {
+                    "unit_type_id": "KGM",
+                    "quantity": 10,
+                    "total_value": 200.00,
+                    "price_type_id": "01",
+                    "price_amount_01": 23.60,
+                    "unit_value": 20.00,
+                    "total_taxes": 36.00,
+                    "total_base_igv": 200.00,
+                    "total_igv": 36.00,
+                    "percentage_igv": 18,
+                    "affectation_igv_type_id": "10",
+                    "name_parts": ["Papa amarilla"],
+                    "internal_id": null,
+                    "item_code": "50192601"
+                }
+            ]
+        }
+    }
+}

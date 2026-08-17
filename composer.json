@@ -1,0 +1,60 @@
+{
+    "name": "esolutions/xml-simple",
+    "description": "Emision CPE SUNAT: construccion UBL, firma, envio (SUNAT/OSE/Nubefact/GRE) y validacion basica + CDR. Version estandar sin motor de reglas SFS.",
+    "type": "library",
+    "license": "proprietary",
+    "keywords": [
+        "sunat",
+        "ubl",
+        "xml",
+        "facturacion-electronica",
+        "peru",
+        "cpe"
+    ],
+    "authors": [
+        {
+            "name": "Carlos Erique Gaspar",
+            "email": "eriquegasparcarlos@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.2",
+        "ext-dom": "*",
+        "ext-libxml": "*",
+        "ext-openssl": "*",
+        "ext-soap": "*",
+        "ext-zip": "*",
+        "laravel/framework": "^11.0|^12.0|^13.0",
+        "robrichards/xmlseclibs": "^3.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "ESolutions\\XmlSimple\\": "src/"
+        },
+        "files": [
+            "src/Support/helpers.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "ESolutions\\XmlSimple\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "ESolutions\\XmlSimple\\XmlServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "stable",
+    "require-dev": {
+        "orchestra/testbench": "^11.1",
+        "phpunit/phpunit": "^13.2"
+    },
+    "scripts": {
+        "test": "phpunit",
+        "test:coverage": "phpunit --coverage-text"
+    },
+    "version": "1.0.0"
+}

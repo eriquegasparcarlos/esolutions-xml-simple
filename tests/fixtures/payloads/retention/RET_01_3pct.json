@@ -1,0 +1,45 @@
+{
+    "type": "20",
+    "description": "Comprobante de retención 3%",
+    "expect": "ok",
+    "payload": {
+        "document": {
+            "id": "R001-1",
+            "date_of_issue": "2026-07-15",
+            "time_of_issue": "10:00:00",
+            "signature_uri": "signatureSUNAT",
+            "signature_note": "QuiroSys",
+            "company_number": "10417844398",
+            "company_name": "CLINICA QUIROSYS SAC",
+            "company_trade_name": "QUIROSYS",
+            "supplier_identity_document_type_id": "6",
+            "supplier_number": "20601234567",
+            "supplier_name": "PROVEEDOR SAC",
+            "retention_type_id": "01",
+            "retention_percentage": 3,
+            "total_retention": 30,
+            "total_paid": 970,
+            "observations": null,
+            "documents": [
+                {
+                    "document_type_id": "01",
+                    "id": "F001-100",
+                    "date_of_issue": "2026-07-10",
+                    "currency_type_id": "PEN",
+                    "total": 1000,
+                    "retention_amount": 30,
+                    "retention_date": "2026-07-15",
+                    "net_total_paid": 970,
+                    "payments": [
+                        {
+                            "currency_type_id": "PEN",
+                            "total": 970,
+                            "date_of_payment": "2026-07-15"
+                        }
+                    ],
+                    "exchange_rate": null
+                }
+            ]
+        }
+    }
+}

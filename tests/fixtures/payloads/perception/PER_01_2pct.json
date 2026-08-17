@@ -1,0 +1,45 @@
+{
+    "type": "40",
+    "description": "Comprobante de percepción 2%",
+    "expect": "ok",
+    "payload": {
+        "document": {
+            "id": "P001-1",
+            "date_of_issue": "2026-07-15",
+            "time_of_issue": "10:00:00",
+            "signature_uri": "signatureSUNAT",
+            "signature_note": "QuiroSys",
+            "company_number": "10417844398",
+            "company_name": "CLINICA QUIROSYS SAC",
+            "company_trade_name": "QUIROSYS",
+            "customer_identity_document_type_id": "6",
+            "customer_number": "20601234567",
+            "customer_name": "CLIENTE SAC",
+            "perception_type_id": "01",
+            "perception_percentage": 2,
+            "total_perception": 20,
+            "total_cashed": 1020,
+            "observations": null,
+            "documents": [
+                {
+                    "document_type_id": "01",
+                    "id": "F001-200",
+                    "date_of_issue": "2026-07-10",
+                    "currency_type_id": "PEN",
+                    "total": 1000,
+                    "perception_amount": 20,
+                    "perception_date": "2026-07-15",
+                    "net_total_cashed": 1020,
+                    "payments": [
+                        {
+                            "currency_type_id": "PEN",
+                            "total": 1020,
+                            "date_of_payment": "2026-07-15"
+                        }
+                    ],
+                    "exchange_rate": null
+                }
+            ]
+        }
+    }
+}

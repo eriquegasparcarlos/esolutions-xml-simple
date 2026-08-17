@@ -1,0 +1,120 @@
+{
+    "type": "07",
+    "description": "FAIL: note_description en null — el paquete debe rechazarlo antes de emitir XML",
+    "expect": "payload_error",
+    "payload": {
+        "document": {
+            "id": "FC01-3",
+            "date_of_issue": "2026-07-14",
+            "time_of_issue": "20:52:53",
+            "date_of_due": "2026-07-15",
+            "operation_type_id": "0101",
+            "operation_type_is_exportation": false,
+            "document_type_id": "07",
+            "currency_type_id": "PEN",
+            "purchase_order": null,
+            "signature_uri": "SIGN",
+            "signature_note": "SIGN",
+            "legends": [
+                {
+                    "code": "1000",
+                    "value": "SEISCIENTOS CON 00/100 SOLES"
+                }
+            ],
+            "guides": [],
+            "related": [],
+            "prepayments": [],
+            "company_identity_document_type_id": "6",
+            "company_number": "10417844398",
+            "company_trade_name": null,
+            "company_name": "ERIQUE GASPAR CARLOS ALFREDO",
+            "establishment": {
+                "code": "0000",
+                "location_id": "150101",
+                "urbanization": null,
+                "province": "Lima",
+                "department": "LIMA",
+                "district": "Lima",
+                "address": "JR. JUNIN NRO. 844 BARR BARRIOS ALTOS (A 1 CUDRA DE PLAZA ITALIA)",
+                "country_id": "PE"
+            },
+            "customer_identity_document_type_id": "6",
+            "customer_number": "10417844398",
+            "customer_name": "ERIQUE GASPAR CARLOS ALFREDO",
+            "customer_address": {
+                "location_id": null,
+                "address": null,
+                "country_id": "PE"
+            },
+            "detraction": null,
+            "payment_condition_id": "01",
+            "fee_total": 0,
+            "fee": [],
+            "perception": null,
+            "retention": null,
+            "charges": [],
+            "discounts": [],
+            "total_taxes": 18,
+            "total_isc": 0,
+            "total_base_isc": 0,
+            "total_taxed": 100,
+            "total_igv": 18,
+            "total_unaffected_init": 0,
+            "total_prepayment_unaffected": 0,
+            "total_exonerated_init": 0,
+            "total_prepayment_exonerated": 0,
+            "total_free": 0,
+            "total_igv_free": 0,
+            "total_exportation_init": 0,
+            "total_other_taxes": 0,
+            "total_base_other_taxes": 0,
+            "total_plastic_bag_taxes": 0,
+            "total_value": 100,
+            "total_discount_no_base": 0,
+            "total_charge": 0,
+            "total_prepayment": 0,
+            "total_payable": 118,
+            "items": [
+                {
+                    "unit_type_id": "NIU",
+                    "quantity": 1,
+                    "total_value": 100,
+                    "price_type_id": "01",
+                    "price_amount_01": 118,
+                    "price_amount_02": 100,
+                    "unit_value": 100,
+                    "charges": [],
+                    "discounts": [],
+                    "total_taxes": 18,
+                    "total_isc": 0,
+                    "total_base_isc": 0,
+                    "percentage_isc": 0,
+                    "system_isc_type_id": null,
+                    "total_base_igv": 100,
+                    "total_igv": 18,
+                    "percentage_igv": 18,
+                    "affectation_igv_type_id": "10",
+                    "total_other_taxes": 0,
+                    "total_base_other_taxes": 0,
+                    "percentage_other_taxes": 0,
+                    "total_plastic_bag_taxes": 0,
+                    "amount_plastic_bag_taxes": 0,
+                    "name_parts": [
+                        "Servicio"
+                    ],
+                    "internal_id": null,
+                    "item_code": null,
+                    "accommodation_attributes": [],
+                    "attributes": []
+                }
+            ],
+            "affected_document": {
+                "id": "F001-101",
+                "document_type_id": "01",
+                "date_of_issue": "2026-07-14"
+            },
+            "note_type_id": "03"
+        }
+    },
+    "expect_message": "note_description"
+}

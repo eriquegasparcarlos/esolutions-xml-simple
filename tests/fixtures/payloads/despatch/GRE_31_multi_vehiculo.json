@@ -1,0 +1,69 @@
+{
+    "type": "31",
+    "description": "Guía transportista, vehículo + secundario, dos conductores",
+    "expect": "ok",
+    "payload": {
+        "document": {
+            "id": "V001-2",
+            "date_of_issue": "2026-07-15",
+            "time_of_issue": "10:30:00",
+            "document_type_id": "31",
+            "signature_uri": "signatureSUNAT",
+            "signature_note": "QuiroSys",
+            "carrier_number": "20512345678",
+            "carrier_name": "TRANSPORTES RAPIDOS SAC",
+            "carrier_mtc_number": "MTC0012026",
+            "sender_identity_document_type_id": "6",
+            "sender_number": "10417844398",
+            "sender_name": "CLINICA QUIROSYS SAC",
+            "customer_identity_document_type_id": "6",
+            "customer_number": "20601234567",
+            "customer_name": "CLIENTE DESTINO SAC",
+            "weight_unit_type_id": "KGM",
+            "total_weight": 25,
+            "packages_number": 5,
+            "transport_mode_type_id": "01",
+            "date_of_shipping": "2026-07-16",
+            "main_plate_number": "XYZ987",
+            "main_vehicle_tuc": "0123456789",
+            "driver_identity_document_type_id": "1",
+            "driver_number": "44556677",
+            "driver_first_name": "JUAN",
+            "driver_family_name": "PEREZ",
+            "driver_license_number": "Q44556677",
+            "secondary_vehicles": [
+                {
+                    "plate_number": "AAA111",
+                    "tuc": "0987654321"
+                }
+            ],
+            "secondary_drivers": [
+                {
+                    "identity_document_type_id": "1",
+                    "number": "55667788",
+                    "first_name": "LUIS",
+                    "family_name": "GOMEZ",
+                    "license_number": "Q55667788"
+                }
+            ],
+            "origin_location_id": "150101",
+            "origin_address": "AV. ORIGEN 123, LIMA",
+            "delivery_location_id": "150140",
+            "delivery_address": "JR. DESTINO 456, LIMA",
+            "observations": null,
+            "container_number": null,
+            "port_code": null,
+            "items": [
+                {
+                    "quantity": 5,
+                    "unit_type_id": "NIU",
+                    "name_parts": [
+                        "Carga de prueba"
+                    ],
+                    "internal_id": "C001",
+                    "item_code": null
+                }
+            ]
+        }
+    }
+}
